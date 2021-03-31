@@ -19,3 +19,5 @@ alias deeplink="adb shell am start -a android.intent.action.VIEW -d $1"
 alias emulist="${ANDROID_TOOLS}emulator -list-avds"
 alias emu="${ANDROID_TOOLS}emulator -avd $1"
 alias emu86="${ANDROID_TOOLS}emulator -avd $1"
+alias proxy-android-setup='adb shell settings put global http_proxy $1'
+alias proxy-android-clear='adb shell settings put global http_proxy :0'
