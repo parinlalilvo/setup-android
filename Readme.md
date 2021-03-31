@@ -1,5 +1,11 @@
 How to setup shell android and git
  - Install zsh 
     - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
-    - brew install zsh
- - ./setup.sh
+    - `$ brew install zsh`
+ - Install zsh-autosuggestions
+    - https://github.com/zsh-users/zsh-autosuggestions
+    - `$ brew install zsh-autosuggestions`
+ - Install zsh-syntax-highlighting
+    - https://github.com/zsh-users/zsh-syntax-highlighting
+    - `$ brew install zsh-syntax-highlighting`
+ - `$ ./setup.sh`
